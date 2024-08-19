@@ -1,4 +1,4 @@
-CC=gcc -std=gnu17 -Wall -Wextra -MMD
+CC=gcc -std=gnu17 -Wall -Wextra -MMD -O3
 
 SRCS=$(wildcard *.c)
 OBJS=$(SRCS:.c=.o)
