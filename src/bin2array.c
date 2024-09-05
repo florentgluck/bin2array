@@ -9,8 +9,8 @@
 #define NUMBERS_PER_LINE    20
 
 void usage(char **argv) {
-    fprintf(stderr, "Usage: %s INPUT OUTPUT\n\
-Prints the content of INPUT to stdout as a C array of 8 bits values.\n", basename(argv[0]));
+    fprintf(stderr, "Usage: %s FILE\n\
+Prints the content of FILE to stdout as a C array of 8 bits values.\n", basename(argv[0]));
     exit(EXIT_FAILURE);
 }
 
