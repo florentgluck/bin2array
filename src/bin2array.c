@@ -37,6 +37,7 @@ int main(int argc, char **argv) {
     int bytes_read;
     int total_bytes = 0;
 
+    printf("#include <stdint.h>\n\n");
     printf("uint8_t t[%ld] = {\n    ", st.st_size);
 
     do {
